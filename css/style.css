@@ -22,7 +22,7 @@ header {
 
 }
 
-ul {
+.header_ul {
     display: flex;
     column-gap: 48px;
 }
@@ -71,8 +71,10 @@ ul {
     font-size: 20px;
     font-weight: 700;
     line-height: 28px;
-    border: solid #FCC21B; padding: 10px 38px;
+    border: solid #FCC21B;
+    padding: 10px 38px;
     margin-top: 30px;
+    display: inline-block;
 }
 
 .section1_div {
@@ -81,3 +83,115 @@ ul {
     left: 50%;
     transform: translateX(-50%);
 }
+
+/* section2 */
+.section2 {
+    padding: 80px;
+}
+
+.section2_div {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+figcaption {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    position: absolute;
+    bottom: 7%;
+}
+
+.fa-mug-saucer,
+.fa-utensils,
+.fa-bed {
+    font-size: 32px;
+    color: #ED6C30;
+    margin-right: 15px;
+}
+
+.fig1 {
+    margin: 0 69px;
+}
+
+.fig2 {
+    margin: 0 47px;
+}
+
+.fig3 {
+    margin: 0 65px;
+}
+
+.section2_h {
+    color: #372D23;
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.section2_p {
+    color: #855C52;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.section2_b {
+    color: white;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 28px;
+    background-color: #ED6C30;
+    border: none;
+    display: block;
+    margin: 40px auto;
+    padding: 12px 40px;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    background-color: #372D23;
+    padding: 32px 300px;
+    display: flex;
+    column-gap: 416px;
+}
+
+.footer_h {
+    color: white;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.footer_li {
+    color: #B89278;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+.footer_h2 {
+    color: white;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.fa-instagram,.fa-linkedin,.fa-facebook-f,.fa-tiktok{color: #FCC21B;}
