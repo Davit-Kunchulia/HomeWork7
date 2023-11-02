@@ -7,10 +7,11 @@
 
 /* header */
 header {
-    background-color: #855C52;
+    background-color: #372D23;
     display: flex;
     align-items: center;
-    column-gap: 333px;
+    
+    justify-content: space-between;
     padding: 32px 80px;
     position: fixed;
     max-width: inherit;
@@ -74,7 +75,7 @@ header {
     border: solid #FCC21B;
     padding: 10px 38px;
     margin-top: 30px;
-    display: inline-block;
+    background-color: transparent;
 }
 
 .section1_div {
@@ -86,13 +87,21 @@ header {
 
 /* section2 */
 .section2 {
-    padding: 80px;
+    margin: 80px 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+
 }
 
-.section2_div {
-    display: flex;
-    justify-content: space-between;
+
+figure {
     position: relative;
+}
+
+.section2_img {
+    width: 100%;
+    height: 320px;
 }
 
 figcaption {
@@ -101,7 +110,16 @@ figcaption {
     font-weight: 700;
     line-height: 24px;
     position: absolute;
-    bottom: 7%;
+    bottom: 0;
+    width: 100%;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+    background: rgba(55, 45, 35, 0.80);
+    backdrop-filter: blur(2px);
+
 }
 
 .fa-mug-saucer,
@@ -109,20 +127,10 @@ figcaption {
 .fa-bed {
     font-size: 32px;
     color: #ED6C30;
-    margin-right: 15px;
+    
 }
 
-.fig1 {
-    margin: 0 69px;
-}
 
-.fig2 {
-    margin: 0 47px;
-}
-
-.fig3 {
-    margin: 0 65px;
-}
 
 .section2_h {
     color: #372D23;
@@ -159,11 +167,10 @@ figcaption {
 
 /* footer */
 footer {
-    width: 100%;
     background-color: #372D23;
     padding: 32px 300px;
     display: flex;
-    column-gap: 416px;
+    justify-content: space-between;
 }
 
 .footer_h {
@@ -194,4 +201,9 @@ footer {
     margin-bottom: 16px;
 }
 
-.fa-instagram,.fa-linkedin,.fa-facebook-f,.fa-tiktok{color: #FCC21B;}
+.fa-instagram,
+.fa-linkedin,
+.fa-facebook-f,
+.fa-tiktok {
+    color: #FCC21B;
+}
